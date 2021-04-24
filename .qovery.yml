@@ -1,0 +1,11 @@
+---
+application:
+  name: "todoapp"
+  project: "idk"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-todoapp"
+  routes:
+  - application_name: "todoapp"
+    paths:
+    - "/*"
